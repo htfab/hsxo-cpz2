@@ -137,7 +137,7 @@ spiceprefix=X
 b=0
 m=1
 }
-C {sg13cmos5l_pr/cap_cmomi.sym} 730 -500 0 0 {name=C4 model=cap_cmomi w=30.0e-6 l=75.0e-6 mmin=1 mmax=4 feed=double subblock=0 m=1 mm_ok=1 spiceprefix=X}
+C {sg13cmos5l_pr/cap_cmomi.sym} 730 -500 0 0 {name=C4 model=cap_cmomf w=30.0e-6 l=75.0e-6 mmin=1 mmax=4 feed=double subblock=0 m=1 mm_ok=1 spiceprefix=X}
 C {sg13g2_pr/sg13_lv_nmos.sym} 480 -210 0 0 {name=M4
 l=0.3u
 w=1u

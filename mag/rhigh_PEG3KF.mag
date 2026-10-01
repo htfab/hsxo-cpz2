@@ -1,0 +1,96 @@
+magic
+tech ihp-sg13cmos5l
+magscale 1 2
+timestamp 1790944914
+<< error_p >>
+rect -267 907 267 965
+rect -391 -841 -333 841
+rect -36 672 36 675
+rect -46 667 46 672
+rect -36 601 36 667
+rect -36 -667 36 -601
+rect -46 -672 46 -667
+rect -36 -675 36 -672
+rect 333 -841 391 841
+rect -267 -965 267 -907
+<< nwell >>
+rect -333 -907 333 907
+<< hvnsubdiff >>
+rect -267 827 267 841
+rect -267 795 -175 827
+rect 175 795 267 827
+rect -267 781 267 795
+rect -267 749 -207 781
+rect -267 -749 -253 749
+rect -221 -749 -207 749
+rect 207 749 267 781
+rect -267 -781 -207 -749
+rect 207 -749 221 749
+rect 253 -749 267 749
+rect 207 -781 267 -749
+rect -267 -795 267 -781
+rect -267 -827 -175 -795
+rect 175 -827 267 -795
+rect -267 -841 267 -827
+<< hvnsubdiffcont >>
+rect -175 795 175 827
+rect -253 -749 -221 749
+rect 221 -749 253 749
+rect -175 -827 175 -795
+<< poly >>
+rect -50 662 50 676
+rect -50 630 -36 662
+rect 36 630 50 662
+rect -50 590 50 630
+rect -50 -630 50 -590
+rect -50 -662 -36 -630
+rect 36 -662 50 -630
+rect -50 -676 50 -662
+<< polycont >>
+rect -36 630 36 662
+rect -36 -662 36 -630
+<< xpolyres >>
+rect -50 -590 50 590
+<< metal1 >>
+rect -253 795 -175 827
+rect 175 795 253 827
+rect -253 749 -221 795
+rect 221 749 253 795
+rect -46 666 46 667
+rect -46 610 -36 666
+rect 36 610 46 666
+rect -46 609 46 610
+rect -46 -610 46 -609
+rect -46 -666 -36 -610
+rect 36 -666 46 -610
+rect -46 -667 46 -666
+rect -253 -795 -221 -749
+rect 221 -795 253 -749
+rect -253 -827 -175 -795
+rect 175 -827 253 -795
+<< via1 >>
+rect -36 662 36 666
+rect -36 630 36 662
+rect -36 610 36 630
+rect -36 -630 36 -610
+rect -36 -662 36 -630
+rect -36 -666 36 -662
+<< metal2 >>
+rect -36 666 36 675
+rect -36 601 36 610
+rect -36 -610 36 -601
+rect -36 -675 36 -666
+<< labels >>
+rlabel hvnsubdiffcont 0 -811 0 -811 0 B
+port 1 nsew
+rlabel polycont 0 646 0 646 0 R1
+port 2 nsew
+rlabel polycont 0 -646 0 -646 0 R2
+port 3 nsew
+<< properties >>
+string FIXED_BBOX -237 -811 237 811
+string gencell rhigh
+string library sg13cmos5l
+string MASKHINTS_CONTBAR -50 -676 50 676
+string parameters w 0.5 l 5.9 m 1 nx 1 wmin 0.50 lmin 0.50 class resistor rho 1360 val 16.048k dummy 0 dw 0.0 term 0.0 sterm 0.0 caplen 0 bar 1 guard 1 glc 1 grc 1 gtc 1 gbc 1 snake 0 full_metal 1 n_guard 1 hv_guard 1 vias 1 viagb 0 viagt 0 viagl 0 viagr 0 doports 1
+<< end >>

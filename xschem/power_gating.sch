@@ -156,18 +156,18 @@ C {sg13g2_pr/diodevdd_2kv.sym} 1430 -490 0 1 {name=D3
 model=diodevdd_2kv
 m=1
 spiceprefix=X
-}
+spice_ignore=true}
 C {sg13g2_pr/diodevss_2kv.sym} 1430 -390 0 1 {name=D4
 model=diodevss_2kv
 spiceprefix=X
 m=1
-}
+spice_ignore=true}
 C {devices/lab_pin.sym} 1430 -540 0 1 {name=p60 sig_type=std_logic lab=AVDD}
 C {devices/lab_pin.sym} 1480 -390 0 1 {name=p61 sig_type=std_logic lab=AVDD}
 C {devices/lab_pin.sym} 1480 -490 0 1 {name=p62 sig_type=std_logic lab=AVSS}
 C {devices/lab_pin.sym} 1430 -340 0 1 {name=p63 sig_type=std_logic lab=AVSS}
-C {sg13cmos5l_pr/cap_cmomi.sym} 1270 -510 2 0 {name=C3 model=cap_cmomi w=30.0e-6 l=75.0e-6 mmin=1 mmax=4 feed=double subblock=0 m=1 mm_ok=1 spiceprefix=X}
-C {sg13cmos5l_pr/cap_cmomi.sym} 1270 -330 2 0 {name=C4 model=cap_cmomi w=30.0e-6 l=75.0e-6 mmin=1 mmax=4 feed=double subblock=0 m=1 mm_ok=1 spiceprefix=X}
+C {sg13cmos5l_pr/cap_cmomi.sym} 1270 -510 2 0 {name=C3 model=cap_cmomf w=30.0e-6 l=75.0e-6 mmin=1 mmax=4 feed=double subblock=0 m=1 mm_ok=1 spiceprefix=X}
+C {sg13cmos5l_pr/cap_cmomi.sym} 1270 -330 2 0 {name=C4 model=cap_cmomf w=30.0e-6 l=75.0e-6 mmin=1 mmax=4 feed=double subblock=0 m=1 mm_ok=1 spiceprefix=X}
 C {sg13g2_pr/sg13_hv_pmos.sym} 180 -420 0 0 {name=M2
 l=0.4u
 w=25.6u

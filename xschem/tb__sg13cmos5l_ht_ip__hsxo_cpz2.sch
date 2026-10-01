@@ -6,15 +6,15 @@ S {}
 F {}
 E {}
 B 2 -390 -710 410 -310 {flags=graph
-y1=-0.56
-y2=6
+y1=-0.063
+y2=2
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
 x1=1e-11
-x2=0.001136148
+x2=0.005
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -22,8 +22,11 @@ ylabmag=1.0
 node="x1.x1.aout
 x1.x1.ain
 dout
-xout"
-color="4 7 8 6"
+xout
+xin
+x1.xoutpad
+x1.xinpad"
+color="4 7 8 6 10 1 15"
 dataset=-1
 unitx=1
 logx=0
@@ -74,8 +77,9 @@ C {devices/lab_pin.sym} 70 -270 0 0 {name=p23 sig_type=std_logic lab=AVDD}
 C {devices/code_shown.sym} -410 -240 0 0 {name=STIMULI only_toplevel=false value=".param temp=27
 .control
 *save all
-save xout dout x1.x1.aout x1.x1.ain
-tran 1n 3000u uic
+save xout dout x1.x1.aout x1.x1.ain xin
++ x1.xinpad x1.xoutpad
+tran 1n 20000u uic
 remzerovec
 write tb__sg13cmos5l_ht_ip__hsxo_cpz2.raw
 .endc
@@ -102,6 +106,5 @@ value="
 .lib cornerMOShv.lib mos_tt
 .lib cornerRES.lib res_typ
 .lib cornerCAP.lib cap_typ
-.include diodes.lib
-.include sg13g2_esd.lib
+.lib cornerDIO.lib dio_tt
 "}

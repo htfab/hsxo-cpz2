@@ -1,0 +1,98 @@
+magic
+tech ihp-sg13cmos5l
+magscale 1 2
+timestamp 1790947854
+<< error_p >>
+rect 314 2654 386 2657
+rect 304 2652 396 2654
+rect 300 2598 400 2652
+rect 314 2583 386 2598
+rect 300 2518 400 2572
+rect -78 1503 -6 1569
+rect -88 1498 4 1503
+rect -78 1495 -6 1498
+<< pwell >>
+rect -314 1272 622 2880
+<< hvpsubdiff >>
+rect -248 2800 556 2814
+rect -248 2768 -156 2800
+rect 464 2768 556 2800
+rect -248 2754 556 2768
+rect -248 2722 -188 2754
+rect -248 1430 -234 2722
+rect -202 1430 -188 2722
+rect 496 2722 556 2754
+rect -248 1398 -188 1430
+rect 496 1430 510 2722
+rect 542 1430 556 2722
+rect 496 1398 556 1430
+rect -248 1384 556 1398
+rect -248 1352 -156 1384
+rect 464 1352 556 1384
+rect -248 1338 556 1352
+<< hvpsubdiffcont >>
+rect -156 2768 464 2800
+rect -234 1430 -202 2722
+rect 510 1430 542 2722
+rect -156 1352 464 1384
+<< poly >>
+rect 300 2644 400 2658
+rect 300 2612 314 2644
+rect 386 2612 400 2644
+rect 300 2598 400 2612
+rect -92 1540 8 1580
+rect -92 1508 -78 1540
+rect -6 1508 8 1540
+rect -92 1494 8 1508
+<< polycont >>
+rect 314 2612 386 2644
+rect -78 1508 -6 1540
+<< xpolyres >>
+rect -92 2432 204 2532
+rect -92 1580 8 2432
+rect 104 1720 204 2432
+rect 300 1720 400 2572
+rect 104 1620 400 1720
+<< metal1 >>
+rect -234 2768 -156 2800
+rect 464 2768 542 2800
+rect -234 2722 -202 2768
+rect 510 2722 542 2768
+rect 304 2648 396 2649
+rect 304 2592 314 2648
+rect 386 2592 396 2648
+rect 304 2591 396 2592
+rect -88 1560 4 1561
+rect -88 1504 -78 1560
+rect -6 1504 4 1560
+rect -88 1503 4 1504
+rect -234 1384 -202 1430
+rect 510 1384 542 1430
+rect -234 1352 -156 1384
+rect 464 1352 542 1384
+<< via1 >>
+rect 314 2644 386 2648
+rect 314 2612 386 2644
+rect 314 2592 386 2612
+rect -78 1540 -6 1560
+rect -78 1508 -6 1540
+rect -78 1504 -6 1508
+<< metal2 >>
+rect 314 2648 386 2657
+rect 314 2583 386 2592
+rect -78 1560 -6 1569
+rect -78 1495 -6 1504
+<< labels >>
+rlabel hvpsubdiffcont 154 1368 154 1368 0 B
+port 1 nsew
+rlabel polycont -42 1524 -42 1524 0 R1
+port 2 nsew
+rlabel polycont 350 2628 350 2628 0 R2
+port 3 nsew
+<< properties >>
+string FIXED_BBOX -218 1368 526 2784
+string gencell rhigh
+string library sg13cmos5l
+string MASKHINTS_CONTBAR -92 1494 400 2658
+string parameters w 0.5 l 4.56 m 1 nx 3 wmin 0.50 lmin 0.50 class resistor rho 1360 val 39.929k dummy 0 dw 0.0 term 0.0 sterm 0.0 caplen 0 bar 1 guard 1 glc 1 grc 1 gtc 1 gbc 1 snake 1 full_metal 1 n_guard 0 hv_guard 1 vias 1 viagb 0 viagt 0 viagl 0 viagr 0 doports 1
+<< end >>
