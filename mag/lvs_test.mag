@@ -1,0 +1,49 @@
+magic
+tech ihp-sg13cmos5l
+magscale 1 2
+timestamp 1793081358
+<< metal1 >>
+rect 8125 335 8325 14895
+rect 204 204 304 290
+rect 1184 204 1284 290
+rect 7925 135 8325 335
+rect 9230 224 9262 396
+rect 9366 224 9398 396
+rect 9298 150 9330 182
+rect 154 76 1334 108
+rect 9154 76 9474 108
+rect 644 -800 844 76
+rect 7585 -204 7785 -4
+rect 2065 -404 7785 -204
+rect 9214 -800 9414 76
+rect 644 -1000 9414 -800
+use cap_cmomf_Y6PZHA  cap_cmomf_Y6PZHA_0
+timestamp 1793064332
+transform 1 0 1925 0 1 -5
+box 0 0 6000 15000
+use rhigh_3NQFRR_fixed  rhigh_3NQFRR_fixed_0
+timestamp 1793064999
+transform 1 0 -6987 0 1 -4153
+box 6987 4153 8475 5731
+use sg13_lv_nmos_SWUS4L  sg13_lv_nmos_SWUS4L_0
+timestamp 1793064332
+transform 1 0 9314 0 1 310
+box -314 -310 314 310
+<< labels >>
+flabel metal1 154 76 1334 108 0 FreeSans 1600 0 0 0 VSS
+port 0 nsew
+flabel metal1 204 204 304 290 0 FreeSans 1600 0 0 0 A
+port 1 nsew
+flabel metal1 1184 204 1284 290 0 FreeSans 1600 0 0 0 B
+port 2 nsew
+flabel metal1 2065 -404 7785 -204 0 FreeSans 1600 0 0 0 C
+port 3 nsew
+flabel metal1 8125 135 8325 14895 0 FreeSans 1600 0 0 0 D
+port 4 nsew
+flabel metal1 9230 224 9262 396 0 FreeSans 1600 0 0 0 E
+port 5 nsew
+flabel metal1 9366 224 9398 396 0 FreeSans 1600 0 0 0 F
+port 6 nsew
+flabel metal1 9298 150 9330 182 0 FreeSans 1600 0 0 0 G
+port 7 nsew
+<< end >>

@@ -1,0 +1,52 @@
+magic
+tech ihp-sg13cmos5l
+magscale 1 2
+timestamp 1793129276
+<< metal1 >>
+rect -1000 0 -800 200
+rect -1000 -400 -800 -200
+rect -1000 -800 -800 -600
+rect -1000 -1200 -800 -1000
+rect -1000 -1600 -800 -1400
+rect -1000 -2000 -800 -1800
+rect -1000 -2400 -800 -2200
+use sg13_hv_pmos_5KSV8U  MM1
+timestamp 1793129276
+transform 1 0 537 0 1 -1182
+box -386 -352 386 352
+use sg13_hv_nmos_T9UVNU  MM2
+timestamp 1793129276
+transform 1 0 1866 0 1 -655
+box -329 -300 329 300
+use sg13_hv_pmos_5KSV8U  MM3
+timestamp 1793129276
+transform 1 0 933 0 1 29
+box -386 -352 386 352
+use sg13_hv_nmos_T9UVNU  MM4
+timestamp 1793129276
+transform 1 0 1818 0 1 160
+box -329 -300 329 300
+use sg13_lv_pmos_D4FDZU  MM5
+timestamp 1793129276
+transform 1 0 2747 0 1 -1175
+box -297 -297 297 297
+use sg13_lv_nmos_L42H6Y  MM6
+timestamp 1793129276
+transform 1 0 2723 0 1 -101
+box -297 -297 297 297
+<< labels >>
+flabel metal1 -1000 0 -800 200 0 FreeSans 1600 0 0 0 AVDD
+port 0 nsew
+flabel metal1 -1000 -400 -800 -200 0 FreeSans 1600 0 0 0 LO_B
+port 1 nsew
+flabel metal1 -1000 -800 -800 -600 0 FreeSans 1600 0 0 0 DVDD
+port 2 nsew
+flabel metal1 -1000 -1200 -800 -1000 0 FreeSans 1600 0 0 0 LO
+port 3 nsew
+flabel metal1 -1000 -1600 -800 -1400 0 FreeSans 1600 0 0 0 HI
+port 4 nsew
+flabel metal1 -1000 -2000 -800 -1800 0 FreeSans 1600 0 0 0 VSS
+port 5 nsew
+flabel metal1 -1000 -2400 -800 -2200 0 FreeSans 1600 0 0 0 HI_B
+port 6 nsew
+<< end >>

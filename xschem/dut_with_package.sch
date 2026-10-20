@@ -5,7 +5,6 @@ V {}
 S {}
 F {}
 E {}
-N -120 -30 60 -30 {lab=GND}
 C {sg13cmos5l_ht_ip__hsxo_cpz2.sym} 0 -130 0 0 {name=X1}
 C {devices/lab_pin.sym} -60 -230 0 0 {name=p4 sig_type=std_logic lab=DVDD}
 C {devices/lab_pin.sym} 60 -230 0 1 {name=p6 sig_type=std_logic lab=AVDD}
@@ -14,7 +13,7 @@ C {devices/lab_pin.sym} -170 -150 0 0 {name=p7 sig_type=std_logic lab=ENA
 }
 C {devices/lab_pin.sym} -170 -130 0 0 {name=p10 sig_type=std_logic lab=STDBY
 }
-C {devices/lab_pin.sym} -120 -30 0 0 {name=p15 sig_type=std_logic lab=GND}
+C {devices/lab_pin.sym} 0 -30 0 0 {name=p15 sig_type=std_logic lab=GND}
 C {devices/lab_pin.sym} 170 -90 0 1 {name=p18 sig_type=std_logic lab=XOUT}
 C {devices/lab_pin.sym} -170 -90 0 0 {name=p19 sig_type=std_logic lab=XINPAD}
 C {devices/lab_pin.sym} -150 60 0 0 {name=p1 sig_type=std_logic lab=XINPAD}

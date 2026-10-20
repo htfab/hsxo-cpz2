@@ -1,7 +1,7 @@
 magic
 tech ihp-sg13cmos5l
 magscale 1 2
-timestamp 1790948542
+timestamp 1793154344
 << metal1 >>
 rect 0 14860 58 15000
 rect 94 14999 6000 15000
@@ -593,9 +593,9 @@ rect 0 0 150 40
 rect 5850 0 6000 40
 << labels >>
 rlabel via3 2 7500 2 7500 0 c1
-port 9 nsew
+port 1 nsew
 rlabel via3 3000 14998 3000 14998 0 c2
-port 10 nsew
+port 2 nsew
 << properties >>
 string device devcap None 0 0 1 1 3115.8366 c1 0 0 c2 0 0
 string FIXED_BBOX 0 0 6000 15000

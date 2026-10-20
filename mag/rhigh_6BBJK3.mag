@@ -1,0 +1,75 @@
+magic
+tech ihp-sg13cmos5l
+timestamp 1793064332
+<< error_p >>
+rect -23 1586 23 1591
+rect -23 1570 -18 1586
+rect -23 1565 23 1570
+rect -23 -1570 23 -1565
+rect -23 -1586 -18 -1570
+rect -23 -1591 23 -1586
+<< pwell >>
+rect -127 -1695 127 1695
+<< psubdiff >>
+rect -96 1657 96 1664
+rect -96 1641 -50 1657
+rect 50 1641 96 1657
+rect -96 1634 96 1641
+rect -96 1618 -66 1634
+rect -96 -1618 -89 1618
+rect -73 -1618 -66 1618
+rect 66 1618 96 1634
+rect -96 -1634 -66 -1618
+rect 66 -1618 73 1618
+rect 89 -1618 96 1618
+rect 66 -1634 96 -1618
+rect -96 -1641 96 -1634
+rect -96 -1657 -50 -1641
+rect 50 -1657 96 -1641
+rect -96 -1664 96 -1657
+<< psubdiffcont >>
+rect -50 1641 50 1657
+rect -89 -1618 -73 1618
+rect 73 -1618 89 1618
+rect -50 -1657 50 -1641
+<< poly >>
+rect -25 1586 25 1593
+rect -25 1570 -18 1586
+rect 18 1570 25 1586
+rect -25 1550 25 1570
+rect -25 -1570 25 -1550
+rect -25 -1586 -18 -1570
+rect 18 -1586 25 -1570
+rect -25 -1593 25 -1586
+<< polycont >>
+rect -18 1570 18 1586
+rect -18 -1586 18 -1570
+<< xpolyres >>
+rect -25 -1550 25 1550
+<< metal1 >>
+rect -89 1641 -50 1657
+rect 50 1641 89 1657
+rect -89 1618 -73 1641
+rect 73 1618 89 1641
+rect -23 1570 -18 1586
+rect 18 1570 23 1586
+rect -23 -1586 -18 -1570
+rect 18 -1586 23 -1570
+rect -89 -1641 -73 -1618
+rect 73 -1641 89 -1618
+rect -89 -1657 -50 -1641
+rect 50 -1657 89 -1641
+<< labels >>
+rlabel psubdiffcont 0 -1649 0 -1649 0 B
+port 4 nsew
+rlabel polycont 0 1578 0 1578 0 R1
+port 5 nsew
+rlabel polycont 0 -1578 0 -1578 0 R2
+port 6 nsew
+<< properties >>
+string FIXED_BBOX -81 -1649 81 1649
+string gencell rhigh
+string library sg13cmos5l
+string MASKHINTS_CONTBAR -25 -1593 25 1593
+string parameters w 0.5 l 31.0 m 1 nx 1 wmin 0.50 lmin 0.50 class resistor rho 1360 val 84.32k dummy 0 dw 0.0 term 0.0 sterm 0.0 caplen 0 bar 1 guard 1 glc 1 grc 1 gtc 1 gbc 1 snake 0 full_metal 1 n_guard 0 hv_guard 0 vias 0 viagb 0 viagt 0 viagl 0 viagr 0 doports 1
+<< end >>

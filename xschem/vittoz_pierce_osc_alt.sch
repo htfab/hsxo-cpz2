@@ -164,8 +164,8 @@ C {devices/lab_pin.sym} 970 -580 0 0 {name=p17 sig_type=std_logic lab=EG_AVSS}
 C {devices/lab_pin.sym} 1110 -680 0 1 {name=p24 sig_type=std_logic lab=SG_AVDD}
 C {devices/lab_pin.sym} 1110 -580 0 1 {name=p25 sig_type=std_logic lab=SG_AVSS}
 C {devices/ammeter.sym} 1000 -230 0 0 {name=Vmeas1 savecurrent=true}
-C {sg13cmos5l_pr/cap_cmomi.sym} 970 -630 2 0 {name=C3 model=cap_cmomi w=30.0e-6 l=75.0e-6 mmin=1 mmax=4 feed=double subblock=0 m=1 mm_ok=1 spiceprefix=X}
-C {sg13cmos5l_pr/cap_cmomi.sym} 1110 -630 2 0 {name=C4 model=cap_cmomi w=30.0e-6 l=75.0e-6 mmin=1 mmax=4 feed=double subblock=0 m=1 mm_ok=1 spiceprefix=X}
+C {sg13cmos5l_pr/cap_cmomf.sym} 970 -630 2 0 {name=C3 model=cap_cmomf w=30.0e-6 l=75.0e-6 mmin=1 mmax=4 feed=double subblock=0 m=1 mm_ok=1 spiceprefix=X}
+C {sg13cmos5l_pr/cap_cmomf.sym} 1110 -630 2 0 {name=C4 model=cap_cmomf w=30.0e-6 l=75.0e-6 mmin=1 mmax=4 feed=double subblock=0 m=1 mm_ok=1 spiceprefix=X}
 C {sg13g2_pr/rhigh.sym} 550 -290 0 0 {name=R1
 w=0.5e-6
 l=1.342e-5
@@ -182,10 +182,10 @@ spiceprefix=X
 b=0
 m=1
 }
-C {sg13cmos5l_pr/cap_cmomi.sym} 450 -220 3 0 {name=C2 model=cap_cmomi w=30.0e-6 l=75.0e-6 mmin=1 mmax=4 feed=double subblock=0 m=1 mm_ok=1 spiceprefix=X}
-C {sg13cmos5l_pr/cap_cmomi.sym} 550 -160 2 0 {name=C7 model=cap_cmomi w=30.0e-6 l=75.0e-6 mmin=1 mmax=4 feed=double subblock=0 m=1 mm_ok=1 spiceprefix=X}
-C {sg13cmos5l_pr/cap_cmomi.sym} 750 -160 2 0 {name=C1 model=cap_cmomi w=4.0e-6 l=4.0e-6 mmin=1 mmax=1 feed=double subblock=0 m=1 mm_ok=1 spiceprefix=X}
-C {sg13cmos5l_pr/cap_cmomi.sym} 1320 -200 2 1 {name=C8 model=cap_cmomi w=4.0e-6 l=4.0e-6 mmin=1 mmax=1 feed=double subblock=0 m=1 mm_ok=1 spiceprefix=X}
+C {sg13cmos5l_pr/cap_cmomf.sym} 450 -220 3 0 {name=C2 model=cap_cmomf w=30.0e-6 l=75.0e-6 mmin=1 mmax=4 feed=double subblock=0 m=1 mm_ok=1 spiceprefix=X}
+C {sg13cmos5l_pr/cap_cmomf.sym} 550 -160 2 0 {name=C7 model=cap_cmomf w=30.0e-6 l=75.0e-6 mmin=1 mmax=4 feed=double subblock=0 m=1 mm_ok=1 spiceprefix=X}
+C {sg13cmos5l_pr/cap_cmomf.sym} 750 -160 2 0 {name=C1 model=cap_cmomf w=4.0e-6 l=4.0e-6 mmin=1 mmax=1 feed=double subblock=0 m=1 mm_ok=1 spiceprefix=X}
+C {sg13cmos5l_pr/cap_cmomf.sym} 1320 -200 2 1 {name=C8 model=cap_cmomf w=4.0e-6 l=4.0e-6 mmin=1 mmax=1 feed=double subblock=0 m=1 mm_ok=1 spiceprefix=X}
 C {sg13g2_pr/sg13_hv_pmos.sym} 850 -440 0 0 {name=M11
 l=0.4u
 w=102.4u

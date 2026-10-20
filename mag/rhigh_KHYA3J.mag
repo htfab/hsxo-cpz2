@@ -1,0 +1,75 @@
+magic
+tech ihp-sg13cmos5l
+timestamp 1793064511
+<< error_p >>
+rect -23 12536 23 12541
+rect -23 12520 -18 12536
+rect -23 12515 23 12520
+rect -23 -12520 23 -12515
+rect -23 -12536 -18 -12520
+rect -23 -12541 23 -12536
+<< pwell >>
+rect -127 -12645 127 12645
+<< psubdiff >>
+rect -96 12607 96 12614
+rect -96 12591 -50 12607
+rect 50 12591 96 12607
+rect -96 12584 96 12591
+rect -96 12568 -66 12584
+rect -96 -12568 -89 12568
+rect -73 -12568 -66 12568
+rect 66 12568 96 12584
+rect -96 -12584 -66 -12568
+rect 66 -12568 73 12568
+rect 89 -12568 96 12568
+rect 66 -12584 96 -12568
+rect -96 -12591 96 -12584
+rect -96 -12607 -50 -12591
+rect 50 -12607 96 -12591
+rect -96 -12614 96 -12607
+<< psubdiffcont >>
+rect -50 12591 50 12607
+rect -89 -12568 -73 12568
+rect 73 -12568 89 12568
+rect -50 -12607 50 -12591
+<< poly >>
+rect -25 12536 25 12543
+rect -25 12520 -18 12536
+rect 18 12520 25 12536
+rect -25 12500 25 12520
+rect -25 -12520 25 -12500
+rect -25 -12536 -18 -12520
+rect 18 -12536 25 -12520
+rect -25 -12543 25 -12536
+<< polycont >>
+rect -18 12520 18 12536
+rect -18 -12536 18 -12520
+<< xpolyres >>
+rect -25 -12500 25 12500
+<< metal1 >>
+rect -89 12591 -50 12607
+rect 50 12591 89 12607
+rect -89 12568 -73 12591
+rect 73 12568 89 12591
+rect -23 12520 -18 12536
+rect 18 12520 23 12536
+rect -23 -12536 -18 -12520
+rect 18 -12536 23 -12520
+rect -89 -12591 -73 -12568
+rect 73 -12591 89 -12568
+rect -89 -12607 -50 -12591
+rect 50 -12607 89 -12591
+<< labels >>
+rlabel psubdiffcont 0 -12599 0 -12599 0 B
+port 1 nsew
+rlabel polycont 0 12528 0 12528 0 R1
+port 2 nsew
+rlabel polycont 0 -12528 0 -12528 0 R2
+port 3 nsew
+<< properties >>
+string FIXED_BBOX -81 -12599 81 12599
+string gencell rhigh
+string library sg13cmos5l
+string MASKHINTS_CONTBAR -25 -12543 25 12543
+string parameters w 0.5 l 250.0 m 1 nx 1 wmin 0.50 lmin 0.50 class resistor rho 1360 val 680.0k dummy 0 dw 0.0 term 0.0 sterm 0.0 caplen 0 bar 1 guard 1 glc 1 grc 1 gtc 1 gbc 1 snake 0 full_metal 1 n_guard 0 hv_guard 0 vias 0 viagb 0 viagt 0 viagl 0 viagr 0 doports 1
+<< end >>

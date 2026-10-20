@@ -1,0 +1,99 @@
+magic
+tech ihp-sg13cmos5l
+magscale 1 2
+timestamp 1793172765
+<< metal1 >>
+rect 0 262 46 400
+rect 82 399 400 400
+rect 82 359 128 399
+rect 312 359 400 399
+rect 82 358 400 359
+rect 0 98 1 262
+rect 41 98 46 262
+rect 0 42 46 98
+rect 82 42 114 322
+rect 150 78 182 358
+rect 218 42 250 322
+rect 286 78 318 358
+rect 354 302 400 358
+rect 354 138 359 302
+rect 399 138 400 302
+rect 0 41 318 42
+rect 0 1 128 41
+rect 272 1 318 41
+rect 0 0 318 1
+rect 354 0 400 138
+<< via1 >>
+rect 128 359 312 399
+rect 1 98 41 262
+rect 359 138 399 302
+rect 128 1 272 41
+<< metal2 >>
+rect 0 399 138 400
+rect 302 399 400 400
+rect 0 359 128 399
+rect 312 359 400 399
+rect 0 344 400 359
+rect 359 302 400 344
+rect 0 262 41 302
+rect 84 262 359 302
+rect 41 180 316 220
+rect 84 98 400 138
+rect 0 56 41 98
+rect 0 41 400 56
+rect 0 1 128 41
+rect 272 1 400 41
+rect 0 0 138 1
+rect 262 0 400 1
+<< via2 >>
+rect 138 399 302 400
+rect 138 360 302 399
+rect 0 98 1 262
+rect 1 98 40 262
+rect 360 138 399 302
+rect 399 138 400 302
+rect 138 1 262 40
+rect 138 0 262 1
+<< metal3 >>
+rect 0 262 56 400
+rect 98 360 138 400
+rect 302 360 400 400
+rect 40 98 56 262
+rect 0 40 56 98
+rect 98 40 138 318
+rect 180 82 220 360
+rect 0 0 138 40
+rect 262 0 302 318
+rect 344 302 400 360
+rect 344 138 360 302
+rect 344 0 400 138
+<< via3 >>
+rect 138 360 302 400
+rect 0 98 40 262
+rect 138 0 262 40
+rect 360 138 400 302
+<< metal4 >>
+rect 0 360 138 400
+rect 302 360 400 400
+rect 0 344 400 360
+rect 360 302 400 344
+rect 0 262 40 302
+rect 82 262 360 302
+rect 40 180 318 220
+rect 82 98 400 138
+rect 0 56 40 98
+rect 0 40 400 56
+rect 0 0 138 40
+rect 262 0 400 40
+<< labels >>
+rlabel via3 2 200 2 200 0 c1
+port 1 nsew
+rlabel via3 200 398 200 398 0 c2
+port 2 nsew
+<< properties >>
+string device devcap None 0 0 1 1 2.8362 c1 0 0 c2 0 0
+string FIXED_BBOX 0 0 400 400
+string gencell cap_cmomf
+string library sg13cmos5l
+string parameters w 2.00 l 2.00 value 9.28 class capacitor mmin metal1 mmax metal4 square 1 subblock 0 lmin 2.00 wmin 2.00 lmax 100.0 wmax 100.0
+<< end >>

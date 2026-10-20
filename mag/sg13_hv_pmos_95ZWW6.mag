@@ -1,0 +1,92 @@
+magic
+tech ihp-sg13cmos5l
+magscale 1 2
+timestamp 1793142608
+<< error_p >>
+rect -26 95 26 153
+rect -108 -80 -40 80
+rect 40 -80 108 80
+rect -26 -153 26 -95
+<< nwell >>
+rect -232 -204 232 204
+<< hvpmos >>
+rect -40 -80 40 80
+<< hvpdiff >>
+rect -108 66 -40 80
+rect -108 -66 -94 66
+rect -62 -66 -40 66
+rect -108 -80 -40 -66
+rect 40 66 108 80
+rect 40 -66 62 66
+rect 94 -66 108 66
+rect 40 -80 108 -66
+<< hvpdiffc >>
+rect -94 -66 -62 66
+rect 62 -66 94 66
+<< poly >>
+rect -40 140 40 154
+rect -40 108 -26 140
+rect 26 108 40 140
+rect -40 80 40 108
+rect -40 -108 40 -80
+rect -40 -140 -26 -108
+rect 26 -140 40 -108
+rect -40 -154 40 -140
+<< polycont >>
+rect -26 108 26 140
+rect -26 -140 26 -108
+<< metal1 >>
+rect -43 144 43 145
+rect -43 104 -26 144
+rect 26 104 43 144
+rect -43 103 43 104
+rect -104 44 -94 66
+rect -62 44 -52 66
+rect -104 -44 -98 44
+rect -58 -44 -52 44
+rect -104 -66 -94 -44
+rect -62 -66 -52 -44
+rect 52 44 62 66
+rect 94 44 104 66
+rect 52 -44 58 44
+rect 98 -44 104 44
+rect 52 -66 62 -44
+rect 94 -66 104 -44
+rect -43 -104 43 -103
+rect -43 -144 -26 -104
+rect 26 -144 43 -104
+rect -43 -145 43 -144
+<< via1 >>
+rect -26 140 26 144
+rect -26 108 26 140
+rect -26 104 26 108
+rect -98 -44 -94 44
+rect -94 -44 -62 44
+rect -62 -44 -58 44
+rect 58 -44 62 44
+rect 62 -44 94 44
+rect 94 -44 98 44
+rect -26 -108 26 -104
+rect -26 -140 26 -108
+rect -26 -144 26 -140
+<< metal2 >>
+rect -26 144 26 153
+rect -26 95 26 104
+rect -98 44 -58 53
+rect -98 -53 -58 -44
+rect 58 44 98 53
+rect 58 -53 98 -44
+rect -26 -104 26 -95
+rect -26 -153 26 -144
+<< labels >>
+rlabel hvpdiffc -78 0 -78 0 0 D
+port 10 nsew
+rlabel hvpdiffc 78 0 78 0 0 S
+port 11 nsew
+rlabel polycont 0 124 0 124 0 G
+port 12 nsew
+<< properties >>
+string gencell sg13_hv_pmos
+string library sg13cmos5l
+string parameters w 0.8 l 0.4 m 1 ng 1 diffcov 100 polycov 100 guard 0 glc 1 grc 1 gtc 1 gbc 1 tbcov 100 rlcov 100 topc 1 botc 1 poverlap 0 doverlap 1 lmin 0.4 wmin 0.15 class mosfet compatible {sg13_lv_pmos sg13_hv_pmos} full_metal 1 conn_gates 0 gate_ring 0 ccols 1 viasrc 100 viadrn 100 viagate 100 viagb 0 viagr 0 viagl 0 viagt 0 doports 1
+<< end >>
