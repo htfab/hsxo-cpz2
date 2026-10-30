@@ -1,7 +1,7 @@
 magic
 tech ihp-sg13cmos5l
 magscale 1 2
-timestamp 1793187725
+timestamp 1793355523
 << metal1 >>
 rect 6 4288 14006 4388
 rect 6 4088 12806 4188
@@ -277,7 +277,7 @@ timestamp 1793154344
 transform 1 0 38406 0 1 4452
 box 0 0 6000 15000
 use vittoz_pierce_osc  x1
-timestamp 1793186946
+timestamp 1793355523
 transform 1 0 8806 0 1 0
 box -700 0 31795 19452
 use schmitt_trigger_pullmid  x2
@@ -285,7 +285,7 @@ timestamp 1793172873
 transform 1 0 44806 0 1 1200
 box 0 0 6976 18252
 use power_gating  x3
-timestamp 1793187501
+timestamp 1793355523
 transform 1 0 6 0 1 0
 box -6 0 12800 19452
 << labels >>

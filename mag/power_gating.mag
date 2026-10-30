@@ -1,7 +1,7 @@
 magic
 tech ihp-sg13cmos5l
 magscale 1 2
-timestamp 1793187501
+timestamp 1793355523
 << nwell >>
 rect 0 1224 5672 2408
 rect 5797 1224 7175 2408
@@ -2452,6 +2452,6 @@ flabel metal2 2191 1651 2387 1769 0 FreeSans 256 0 0 0 EG_AVDD
 flabel metal2 2191 1863 3093 1981 0 FreeSans 256 0 0 0 AVDD
 flabel metal2 2191 1863 3093 1981 0 FreeSans 256 0 0 0 AVDD
 flabel metal2 6175 1404 6823 1522 0 FreeSans 256 0 0 0 STDBY
-flabel metal2 7405 886 8263 1004 0 FreeSans 256 0 0 0 STDBY
 flabel metal2 6175 886 6721 1004 0 FreeSans 256 0 0 0 STDBY
+flabel metal2 7405 886 8263 1004 0 FreeSans 256 0 0 0 STDBY
 << end >>
