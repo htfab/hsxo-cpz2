@@ -5,174 +5,105 @@ V {}
 S {}
 F {}
 E {}
-T {Placeholder pad model adapted from Sylvain's sky130 version,
-not expected to correspond to the actual IHP pads. TBC.} -280 430 0 0 0.4 0.4 {}
-N -240 -120 -200 -120 {
-lab=pin}
-N -240 -120 -240 -100 {
-lab=pin}
-N -140 -120 -120 -120 {
-lab=#net1}
-N -20 -120 -20 -100 {
-lab=#net2}
-N -20 -40 -20 -20 {
-lab=VGND}
-N -270 200 -250 200 {
-lab=VGND}
-N -250 200 -250 220 {
-lab=VGND}
-N -240 -40 -240 -20 {
-lab=VGND}
-N -250 180 -250 200 {
-lab=VGND}
-N -250 100 -250 120 {
-lab=VAPWR}
-N 160 -200 160 -120 {
-lab=#net3}
-N 160 -200 180 -200 {
-lab=#net3}
-N 160 -120 160 -40 {
-lab=#net3}
-N 160 -40 180 -40 {
-lab=#net3}
-N 240 -40 260 -40 {
-lab=mod}
-N 260 -120 260 -40 {
-lab=mod}
-N 240 -200 260 -200 {
-lab=mod}
-N -20 -120 20 -120 {
-lab=#net2}
-N 120 -120 160 -120 {
-lab=#net3}
-N 260 -120 380 -120 {
-lab=mod}
-N 300 -60 300 -40 {
-lab=VGND}
-N 210 0 210 20 {
-lab=VAPWR}
-N 210 -260 210 -240 {
-lab=VGND}
-N 80 -120 120 -120 {
-lab=#net3}
-N 160 160 160 240 {
-lab=#net3}
-N 160 160 180 160 {
-lab=#net3}
-N 160 240 160 320 {
-lab=#net3}
-N 160 320 180 320 {
-lab=#net3}
-N 240 320 260 320 {
-lab=VGND}
-N 260 240 260 320 {
-lab=VGND}
-N 240 160 260 160 {
-lab=VGND}
-N 120 240 160 240 {
-lab=#net3}
-N 260 240 300 240 {
-lab=VGND}
-N 210 360 210 380 {
-lab=VGND}
-N 210 100 210 120 {
-lab=VAPWR}
-N 120 -120 120 240 {
-lab=#net3}
-N -280 -120 -240 -120 {
-lab=pin}
-N -60 -120 -20 -120 {
-lab=#net2}
-N 260 -200 260 -120 {
-lab=mod}
-N 260 160 260 240 {
-lab=VGND}
-N 210 -90 210 -40 {lab=VGND}
-N 210 -200 210 -150 {lab=VAPWR}
-N 210 160 210 210 {lab=VAPWR}
-N 210 270 210 320 {lab=VGND}
-C {devices/iopin.sym} -280 -120 0 1 {name=p1 lab=pin sim_pinnumber=2}
-C {devices/iopin.sym} 380 -120 0 0 {name=p2 lab=mod sim_pinnumber=3}
-C {devices/iopin.sym} -270 200 0 1 {name=p3 lab=VGND sim_pinnumber=1}
-C {devices/capa.sym} -240 -70 0 0 {name=C1
-m=1
-value=2p
-footprint=1206
-device="ceramic capacitor"}
-C {devices/vsource.sym} -250 150 0 0 {name=V1 value=3.3 savecurrent=false}
-C {devices/res.sym} -170 -120 1 0 {name=R1
-value=1
-footprint=1206
-device=resistor
-m=1}
-C {devices/ind.sym} -90 -120 1 0 {name=L1
-m=1
-value=1n
-footprint=1206
-device=inductor}
-C {devices/capa.sym} -20 -70 0 0 {name=C2
-m=1
-value=3p
-footprint=1206
-device="ceramic capacitor"}
-C {vgnd_loc.sym} -250 220 0 0 {name=l2 lab=VGND}
-C {vgnd_loc.sym} -240 -20 0 0 {name=l3 lab=VGND}
-C {vgnd_loc.sym} -20 -20 0 0 {name=l4 lab=VGND}
-C {vpwr_loc.sym} -250 100 0 0 {name=l5 lab=VAPWR}
-C {devices/res.sym} 50 -120 1 0 {name=R2
-value=50
-footprint=1206
-device=resistor
-m=1}
-C {devices/capa.sym} 300 -90 0 0 {name=C3
-m=1
-value=250f
-footprint=1206
-device="ceramic capacitor"}
-C {vgnd_loc.sym} 300 -40 0 0 {name=l6 lab=VGND
-value=100f}
-C {vpwr_loc.sym} 210 20 2 0 {name=l7 lab=VAPWR}
-C {vgnd_loc.sym} 210 -260 2 0 {name=l8 lab=VGND
-value=100f}
-C {vpwr_loc.sym} 210 100 0 0 {name=l9 lab=VAPWR}
-C {vgnd_loc.sym} 210 380 0 0 {name=l10 lab=VGND
-value=100f}
-C {vgnd_loc.sym} 300 240 3 1 {name=l11 lab=VGND}
-C {sg13g2_pr/sg13_hv_pmos.sym} 210 -220 1 0 {name=M2
-l=0.45u
-w=162u
-ng=18
-m=1
+N 210 70 360 70 {lab=iovdd}
+N 360 70 360 190 {lab=iovdd}
+N 210 70 210 100 {lab=iovdd}
+N 140 70 210 70 {lab=iovdd}
+N 360 390 360 510 {lab=iovss}
+N 210 510 360 510 {lab=iovss}
+N 210 480 210 510 {lab=iovss}
+N 140 510 210 510 {lab=iovss}
+N 210 390 210 420 {lab=#net1}
+N 210 390 320 390 {lab=#net1}
+N 210 160 210 190 {lab=#net2}
+N 210 190 320 190 {lab=#net2}
+N 360 290 360 360 {lab=pad}
+N 360 220 360 290 {lab=pad}
+N 360 290 530 290 {lab=pad}
+N 530 220 530 290 {lab=pad}
+N 530 70 530 160 {lab=iovdd}
+N 360 70 530 70 {lab=iovdd}
+N 530 290 530 360 {lab=pad}
+N 530 420 530 510 {lab=iovss}
+N 360 510 530 510 {lab=iovss}
+N 530 290 620 290 {lab=pad}
+N 680 290 770 290 {lab=padres}
+N 770 220 770 290 {lab=padres}
+N 770 70 770 160 {lab=iovdd}
+N 530 70 770 70 {lab=iovdd}
+N 770 420 770 510 {lab=iovss}
+N 530 510 770 510 {lab=iovss}
+N 770 290 770 360 {lab=padres}
+N 770 290 860 290 {lab=padres}
+N 130 290 360 290 {lab=pad}
+C {devices/iopin.sym} 130 290 0 1 {name=p1 lab=pad sim_pinnumber=0}
+C {devices/iopin.sym} 860 290 2 1 {name=p2 lab=padres sim_pinnumber=1}
+C {devices/iopin.sym} 140 70 0 1 {name=p3 lab=iovdd sim_pinnumber=3}
+C {sg13g2_pr/sg13_hv_pmos.sym} 340 190 0 0 {name=M2
+l=0.6u
+w=133.2u
+ng=20
+m=2
 model=sg13_hv_pmos
 spiceprefix=X
 }
-C {sg13g2_pr/sg13_hv_nmos.sym} 210 -20 3 0 {name=M1
-l=0.45u
-w=54u
-ng=12
+C {sg13g2_pr/sg13_hv_nmos.sym} 340 390 0 0 {name=M1
+l=0.6u
+w=88u
+ng=20
 m=1
 model=sg13_hv_nmos
 spiceprefix=X
 }
-C {sg13g2_pr/sg13_hv_nmos.sym} 210 340 3 0 {name=M3
-l=0.45u
-w=54u
-ng=12
-m=1
-model=sg13_hv_nmos
+C {sg13g2_pr/rppd.sym} 210 130 0 0 {name=R1
+w=0.5u
+l=12.9u
+body=iovdd
+model=rppd
 spiceprefix=X
-}
-C {sg13g2_pr/sg13_hv_pmos.sym} 210 140 1 0 {name=M4
-l=0.45u
-w=162u
-ng=18
+b=0
 m=1
-model=sg13_hv_pmos
-spiceprefix=X
 }
-C {vgnd_loc.sym} 210 -90 2 0 {name=l12 lab=VGND
-value=100f}
-C {vpwr_loc.sym} 210 -150 2 0 {name=l13 lab=VAPWR}
-C {vpwr_loc.sym} 210 210 2 0 {name=l14 lab=VAPWR}
-C {vgnd_loc.sym} 210 270 2 0 {name=l15 lab=VGND
-value=100f}
+C {devices/iopin.sym} 140 510 0 1 {name=p4 lab=iovss sim_pinnumber=2}
+C {sg13g2_pr/rppd.sym} 210 450 2 0 {name=R2
+w=0.5u
+l=3.54u
+body=iovss
+model=rppd
+spiceprefix=X
+b=0
+m=1
+}
+C {sg13g2_pr/dpantenna.sym} 530 190 0 0 {name=D2[0:1]
+model=dpantenna
+l=27.78u
+w=1.26u
+spiceprefix=X
+spice_ignore=true}
+C {sg13g2_pr/dantenna.sym} 530 390 0 0 {name=D1[0:1]
+model=dantenna
+l=27.78u
+w=1.26u
+spiceprefix=X
+spice_ignore=true}
+C {sg13g2_pr/rppd.sym} 650 290 3 0 {name=R3
+w=1u
+l=2u
+body=iovss
+model=rppd
+spiceprefix=X
+b=0
+m=1
+}
+C {sg13g2_pr/dantenna.sym} 770 390 0 0 {name=D3
+model=dantenna
+l=3.1u
+w=640n
+spiceprefix=X
+spice_ignore=true}
+C {sg13g2_pr/dpantenna.sym} 770 190 0 0 {name=D4
+model=dpantenna
+l=4.98u
+w=640n
+spiceprefix=X
+spice_ignore=true}
